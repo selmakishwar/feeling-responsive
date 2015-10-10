@@ -1,63 +1,54 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
-- title: "Templates"
-  url: "/design/"
+- title: About
+  url: "/about/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+  - title: "Testimonials"
+    url: "/about/testimonials/"
 
-- title: "Header Styles"
-  url: "/headers/"
+- title: Partners
+  url: "/partners/"
   side: left
   dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+  - title: "Become a Partner"
+    url: "/involved/partner/"
 
-- title: Documentation
-  url: "/documentation/"
+- title: "Workshops"
+  url: "/workshops/"
   side: left
   dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+  - title: "Host a Workshop"
+    url: "/workshops/host/"
+  - title: "Attend a Workshop"
+    url: "/workshops/attend/"
+  - title: "Upcoming Workshops"
+    url: "/workshops/upcoming/"
+  - title: "Past Workshops"
+    url: "/workshops/past/"
+  - title: "Workshop Guides"
+    url: "/workshops/guides/"
+
+- title: Lessons
+  url: "/lessons/"
+  side: left
+
+- title: "Get Involved"
+  url: "/involved/"
+  side: left
+  dropdown:
+  - title: "Join the Conversation"
+    url: "/involved/conversation/"
+  - title: "Become an Instructor"
+    url: "/involved/instructor/"
+  - title: "Donate"
+    url: "/involved/donate/"
+  - title: "Help Develop Lessons"
+    url: "/involved/develop/"
+  - title: "Other Projects"
+    url: "/involved/projects/"
 
 - title: Blog
   url: "/blog/"
@@ -66,10 +57,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
-  url: "/search/"
-  side: right
-
 - title: "Contact"
   url: "/contact/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
   side: right

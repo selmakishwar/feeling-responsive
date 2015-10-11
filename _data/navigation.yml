@@ -7,7 +7,7 @@
   side: left
   dropdown:
   - title: "Testimonials"
-    url: "/about/testimonials/"
+    url: "/testimonials/"
 
 - title: Partners
   url: "/partners/"

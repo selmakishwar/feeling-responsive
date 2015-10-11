@@ -8,6 +8,8 @@
   dropdown:
   - title: "About Us"
     url: "/about/"
+  - title: "Frequently Asked Questions"
+    url: "/faq/"
   - title: "Testimonials"
     url: "/testimonials/"
 
@@ -18,7 +20,7 @@
   - title: "Our Partners"
     url: "/partners/"
   - title: "Become a Partner"
-    url: "/join/partner/"
+    url: "/partners/join/"
 
 - title: "Workshops"
   url: "/workshops/"
@@ -38,6 +40,11 @@
 - title: Lessons
   url: "/lessons/"
   side: left
+  dropdown:
+  - title: "Our Lessons"
+    url: "/lessons/"
+  - title: "Dashboard"
+    url: "Contributor Dashboard"
 
 - title: "Get Involved"
   url: "/join/"
@@ -53,6 +60,8 @@
     url: "/join/develop/"
   - title: "Other Projects"
     url: "/join/projects/"
+  - title: "Our Team"
+    url: "/join/team/"
 
 - title: Blog
   url: "/blog/"

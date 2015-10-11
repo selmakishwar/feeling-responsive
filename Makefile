@@ -6,9 +6,13 @@ all : commands
 commands :
 	@grep -E '^##' Makefile | sed -e 's/## //g'
 
-## update     : update data from the web.
-update :
-	${PY} bin/make-dashboard.py ./git-token.txt _data/dashboard.yml
+## amy        : update workshop and other data from AMY.
+amy :
+	${PY} bin/get-amy.py https://amy.software-carpentry.org/api/v1/ _data/amy.yml
+
+## dashboard  : update data about status of projects.
+dashboard :
+	${PY} bin/get-dashboard.py ./git-token.txt _data/dashboard.yml
 
 ## serve      : run a local server.
 serve : 

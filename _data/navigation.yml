@@ -30,16 +30,12 @@
   url: "/workshops/"
   side: left
   dropdown:
-  - title: "Host a Workshop"
-    url: "/workshops/host/"
-  - title: "Attend a Workshop"
-    url: "/workshops/attend/"
-  - title: "Upcoming Workshops"
-    url: "/workshops/upcoming/"
+  - title: "Our Workshops"
+    url: "/workshops/"
+  - title: "Workshop Operations"
+    url: "/workshops/ops/"
   - title: "Past Workshops"
     url: "/workshops/past/"
-  - title: "Workshop Guides"
-    url: "/workshops/guides/"
 
 - title: Lessons
   url: "/lessons/"
@@ -49,9 +45,8 @@
     url: "/lessons/"
   - title: "License"
     url: "/license/"
-  - title: "Developer Dashboard"
+  - title: "Development Dashboard"
     url: "/lessons/dashboard/"
-    url: "/lessons/previous/"
   - title: "Previous Material"
     url: "/lessons/previous/"
 

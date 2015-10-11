@@ -10,6 +10,8 @@
     url: "/about/"
   - title: "Software Carpentry Foundation"
     url: "/scf/"
+  - title: "Code of Conduct"
+    url: "/conduct/"
   - title: "Testimonials"
     url: "/testimonials/"
   - title: "FAQ"
@@ -32,6 +34,8 @@
   dropdown:
   - title: "Our Workshops"
     url: "/workshops/"
+  - title: "Code of Conduct"
+    url: "/conduct/"
   - title: "Workshop Operations"
     url: "/workshops/operations/"
   - title: "Workshop Fees"

@@ -6,6 +6,8 @@
   url: "/about/"
   side: left
   dropdown:
+  - title: "About Us"
+    url: "/about/"
   - title: "Testimonials"
     url: "/testimonials/"
 
@@ -13,6 +15,8 @@
   url: "/partners/"
   side: left
   dropdown:
+  - title: "Our Partners"
+    url: "/partners/"
   - title: "Become a Partner"
     url: "/join/partner/"
 

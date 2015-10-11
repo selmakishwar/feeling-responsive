@@ -10,10 +10,12 @@
     url: "/about/"
   - title: "Software Carpentry Foundation"
     url: "/scf/"
-  - title: "FAQ"
-    url: "/faq/"
   - title: "Testimonials"
     url: "/testimonials/"
+  - title: "FAQ"
+    url: "/faq/"
+  - title: "Our Team"
+    url: "/team/"
 
 - title: Partners
   url: "/partners/"
@@ -45,8 +47,13 @@
   dropdown:
   - title: "Our Lessons"
     url: "/lessons/"
-  - title: "Dashboard"
-    url: "Contributor Dashboard"
+  - title: "License"
+    url: "/license/"
+  - title: "Developer Dashboard"
+    url: "/lessons/dashboard/"
+    url: "/lessons/previous/"
+  - title: "Previous Material"
+    url: "/lessons/previous/"
 
 - title: "Get Involved"
   url: "/join/"
@@ -62,8 +69,6 @@
     url: "/join/develop/"
   - title: "Other Projects"
     url: "/join/projects/"
-  - title: "Our Team"
-    url: "/join/team/"
 
 - title: Blog
   url: "/blog/"

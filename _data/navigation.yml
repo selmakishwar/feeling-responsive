@@ -59,15 +59,11 @@
   url: "/join/"
   side: left
   dropdown:
-  - title: "Join the Conversation"
-    url: "/join/conversation/"
-  - title: "Become an Instructor"
-    url: "/join/instructor/"
+  - title: "Join Us"
+    url: "/join/"
   - title: "Donate"
     url: "/join/donate/"
-  - title: "Help Develop Lessons"
-    url: "/join/develop/"
-  - title: "Other Projects"
+  - title: "Related Projects"
     url: "/join/projects/"
 
 - title: Blog

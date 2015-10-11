@@ -8,7 +8,9 @@
   dropdown:
   - title: "About Us"
     url: "/about/"
-  - title: "Frequently Asked Questions"
+  - title: "Software Carpentry Foundation"
+    url: "/scf/"
+  - title: "FAQ"
     url: "/faq/"
   - title: "Testimonials"
     url: "/testimonials/"

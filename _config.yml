@@ -27,9 +27,10 @@ baseurl: ''
 
 # Software Carpentry-specific configuration values.
 # FIXME: eliminate some of these (duplicate social media information)
+amy_url         : "https://amy.software-carpentry.org/workshops"
 board_inquiries : "board-inquiries@software-carpentry.org"
 contact         : "admin@software-carpentry.org"
-amy_url         : "https://amy.software-carpentry.org/workshops"
+dc_url          : "http://datacarpentry.org"
 facebook_url    : "https://www.facebook.com/SoftwareCarpentry"
 github_url      : "https://github.com/swcarpentry"
 github_io_url   : "http://swcarpentry.github.io"

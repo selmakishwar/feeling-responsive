@@ -1,12 +1,19 @@
-- name: YouTube
-  url: https://www.youtube.com/user/softwarecarpentry
-  class: icon-youtube
-  title: "Software Carpentry Videos"
+- name: GitHub
+  url: http://github.com/swcarpentry
+  class: icon-github
+  title: Source
 
 - name: Twitter
   url: http://twitter.com/swcarpentry
   class: icon-twitter
   title: "Software Carpentry on Twitter"
+
+- name: YouTube
+  url: https://www.youtube.com/user/softwarecarpentry
+  class: icon-youtube
+  title: "Software Carpentry Videos"
+
+#------------------------------------------------------------
 
 # - name: Facebook
 #   url: http://www.facebook.com/phlow.media
@@ -17,11 +24,6 @@
 #   url: http://soundcloud.com/phlow
 #   class: icon-soundcloud
 #   title: "Sounds und Downloads und mehr"
-
-- name: GitHub
-  url: http://github.com/swcarpentry
-  class: icon-github
-  title: Source
 
 # - name: Instagram
 #   url: http://instagram.com/phlowmedia

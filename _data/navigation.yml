@@ -33,7 +33,9 @@
   - title: "Our Workshops"
     url: "/workshops/"
   - title: "Workshop Operations"
-    url: "/workshops/ops/"
+    url: "/workshops/operations/"
+  - title: "Workshop Fees"
+    url: "/workshops/fees/"
   - title: "Past Workshops"
     url: "/workshops/past/"
 

@@ -14,7 +14,7 @@
   side: left
   dropdown:
   - title: "Become a Partner"
-    url: "/involved/partner/"
+    url: "/join/partner/"
 
 - title: "Workshops"
   url: "/workshops/"
@@ -36,19 +36,19 @@
   side: left
 
 - title: "Get Involved"
-  url: "/involved/"
+  url: "/join/"
   side: left
   dropdown:
   - title: "Join the Conversation"
-    url: "/involved/conversation/"
+    url: "/join/conversation/"
   - title: "Become an Instructor"
-    url: "/involved/instructor/"
+    url: "/join/instructor/"
   - title: "Donate"
-    url: "/involved/donate/"
+    url: "/join/donate/"
   - title: "Help Develop Lessons"
-    url: "/involved/develop/"
+    url: "/join/develop/"
   - title: "Other Projects"
-    url: "/involved/projects/"
+    url: "/join/projects/"
 
 - title: Blog
   url: "/blog/"

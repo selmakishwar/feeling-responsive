@@ -7,13 +7,13 @@ title: Dictionaries are a Scientist's Friend
 category: ["Education", "Tutorial"]
 ---
 <p>[Code]</p>
-<p>Today I would like to share with other scientists the power of <a href="http://docs.python.org/tutorial/datastructures.html#dictionaries">dictionaries</a>. I recently learned about this data structure during a software carpentry <a href="{{page.root}}/workshops/">bootcamp</a> that <a href="http://third-bit.com/">Greg Wilson</a> and <a href="http://whitelab.weecology.org/">Ethan White</a> organized. Greg and Jason Pell (from Michigan State) visited Utah State University for a two day bootcamp where <a href="http://mcglinn.web.unc.edu/">I am a postdoc studying</a> patterns of biodiversity. During that time we covered a whole slew of topics, but today I wanted to demonstrate how dictionaries helped to significantly speed up my Python code.</p>
+<p>Today I would like to share with other scientists the power of <a href="http://docs.python.org/tutorial/datastructures.html#dictionaries">dictionaries</a>. I recently learned about this data structure during a Software Carpentry bootcamp that Greg Wilson and <a href="http://whitelab.weecology.org/">Ethan White</a> organized. Greg and Jason Pell (from Michigan State) visited Utah State University for a two day bootcamp where <a href="http://mcglinn.web.unc.edu/">I am a postdoc studying</a> patterns of biodiversity. During that time we covered a whole slew of topics, but today I wanted to demonstrate how dictionaries helped to significantly speed up my Python code.</p>
 <p>Before we begin this demonstration let's import two necessary libraries into our Python interpreter. We'll import division from __future__ so that Python carries out <a href="http://www.python.org/dev/peps/pep-0238/">'true' division instead of 'classic' division</a>, and we'll import time from time so that we can time how much time our functions take to run.</p>
 <pre># import division so that we are using 'true' division
 from __future__ import division
 # import time so that we can clock how fast our functions run
 from time import time</pre>
-<p>A dictionary is a data structure that is used to look-up a value given an associated key (i.e. its name). Check out the software carpentry <a href="{{page.root}}/v4/setdict/">lecture</a> on dictionaries for a full and technical introduction. Let's do a quick warm-up with dictionaries in Python:</p>
+<p>A dictionary is a data structure that is used to look-up a value given an associated key (i.e. its name). Check out the Software Carpentry lecture on dictionaries for a full and technical introduction. Let's do a quick warm-up with dictionaries in Python:</p>
 <pre># create an empty dictionary
 my_dict = dict()
 

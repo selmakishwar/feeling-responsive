@@ -40,8 +40,6 @@
     url: "/workshops/request/"
   - title: "Workshop Operations"
     url: "/workshops/operations/"
-  - title: "Workshop Fees"
-    url: "/workshops/fees/"
   - title: "Past Workshops"
     url: "/workshops/past/"
 
@@ -64,6 +62,8 @@
   dropdown:
   - title: "Join Us"
     url: "/join/"
+  - title: "Apply for Instructor Training"
+    url: "/join/enroll/"
   - title: "Donate"
     url: "/join/donate/"
   - title: "Related Projects"

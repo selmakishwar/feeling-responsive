@@ -3,6 +3,7 @@
 '''Fetch info about workshops, airports, etc. from AMY.'''
 
 import sys
+import datetime
 import urllib.request
 import yaml
 
@@ -19,8 +20,14 @@ def main():
     config = {
         'badges' : fetch_info(amy_url, 'export/badges.yaml'),
         'airports' : fetch_info(amy_url, 'export/instructors.yaml'),
-        'workshops' : fetch_info(amy_url, 'events/published.yaml')
+        'workshops' : fetch_info(amy_url, 'events/published.yaml'),
+        'today' : datetime.date.today()
     }
+
+    # Mark workshops as past or future.
+    for w in config['workshops']:
+        w['_is_upcoming'] = w['start'] >= config['today']
+        w['_is_past'] = not w['_is_upcoming']
 
     # Coalesce flag information.
     for a in config['airports']:

@@ -36,6 +36,8 @@
     url: "/workshops/"
   - title: "Code of Conduct"
     url: "/conduct/"
+  - title: "Request a Workshop"
+    url: "/workshops/request/"
   - title: "Workshop Operations"
     url: "/workshops/operations/"
   - title: "Workshop Fees"

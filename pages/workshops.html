@@ -61,7 +61,7 @@ title: Our Workshops
     {% for w in site.data.amy.workshops %}
       {% if w._is_upcoming %}
       <tr>
-	<td><img src="{{site.baseurl}}/files/flags/{{site.flag_size}}/{{w.country}}.png" title="{{w.country | replace: '-', ' '}}" alt="{{w.country | replace: '-', ' '}}" /></td>
+	<td><img src="{{site.filesurl}}/flags/{{site.flag_size}}/{{w.country}}.png" title="{{w.country | replace: '-', ' '}}" alt="{{w.country | replace: '-', ' '}}" /></td>
 	<td class="link"><a href="{{w.url}}">{{w.venue}}</a></td>
 	<td class="date">{{w.humandate}}</td>
       </tr>

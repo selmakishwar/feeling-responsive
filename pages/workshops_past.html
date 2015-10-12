@@ -9,7 +9,7 @@ title: Past Workshops
 
 <div style="text-align: center; margin-bottom: 15px">
   {% for flag in site.data.amy.flags.workshops %}
-    <img src="{{site.baseurl}}/files/flags/32/{{flag}}.png" title="{{flag | replace: '-',' '}}" alt="{{flag | replace: '-',' '}}" />
+    <img src="{{site.filesurl}}/flags/32/{{flag}}.png" title="{{flag | replace: '-',' '}}" alt="{{flag | replace: '-',' '}}" />
   {% endfor %}
 </div>
 
@@ -17,7 +17,7 @@ title: Past Workshops
   {% for w in site.data.amy.workshops %}
     {% if w._is_past %}
     <tr>
-      <td><img src="{{site.baseurl}}/files/flags/{{site.flag_size}}/{{w.country}}.png" title="{{w.country | replace: '-', ' '}}" alt="{{w.country | replace: '-', ' '}}" /></td>
+      <td><img src="{{site.filesurl}}/flags/{{site.flag_size}}/{{w.country}}.png" title="{{w.country | replace: '-', ' '}}" alt="{{w.country | replace: '-', ' '}}" /></td>
       <td class="link"><a href="{{w.url}}">{{w.venue}}</a></td>
       <td class="date">{{w.humandate}}</td>
     </tr>

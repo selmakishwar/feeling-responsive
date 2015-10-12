@@ -1,7 +1,6 @@
 ---
-layout: blog
-root: ../../..
-author: Greg Wilson
+layout: page
+author: "Greg Wilson"
 title: "Mr. Biczo Was Right"
 date: 2014-04-23
 time: "09:00:00"
@@ -35,7 +34,7 @@ category: ["Opinion", "Teaching"]
   If you're using Continuum's <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> installation of Python,
   then <code>pip install scrapy</code> fails
   with a lengthy stack trace and the cryptic message, "Reason: image not found."
-  <a href="{{page.root}}/pages/team.html#davis.m">Matt Davis</a>,
+  <a href="{{site.baseurl}}/team/#davis.m">Matt Davis</a>,
   eventually figured out that you have to set a shell variable before trying to install
   the Python <code>cryptography</code> library
   that Scrapy depends on:

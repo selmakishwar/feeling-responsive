@@ -1,6 +1,6 @@
 ---
 layout: blog
-author: Michael Hansen
+author: "Michael Hansen"
 title: "Michael Hansen: What I've Learned"
 date: 2013-09-25
 time: "12:00:00"
@@ -37,7 +37,7 @@ category: ["Community", "Experience Report"]
 <p>Software Carpentry promotes <em>reproducible science</em> via automation. For me, this boils down to a simple rule of thumb: anyone who has access to my code should be able to (1) clone the repository, and (2) run <a href="{{page.root}}/v4/make/index.html">make</a> to generate the final product. This holds true for my papers and, thanks to the <a href="http://ipython.org/notebook.html">IPython Notebook</a>, it's now possible for me to generate my figures and PDFs using the same process.</p>
 <p><strong>Sharing is Caring</strong></p>
 <p>Sharing your code and data is part of reproducible science, but making it publicly available (as opposed to by request) changes the game a bit. When your code is up on <a href="https://github.com/">Github</a> for the world to see, its quality becomes a much higher priority. Although it can be scary to have the intimate details of your analyses exposed, the benefits are numerous. Others can build on your work, confirm your results, and avoid making the same mistakes you made by trying to "reinvent the wheel".</p>
-<p>When possible, I believe data should also be shared. In many cases, this means more than just depositing a .zip file or an SQLite database somewhere. The <a href="{{page.root}}/blog/2013/05/reuse-your-data.html">Software Carpentry website</a> links to some good resources for sharing data.</p>
+<p>When possible, I believe data should also be shared. In many cases, this means more than just depositing a .zip file or an SQLite database somewhere. The <a href="{{site.baseurl}}/blog/2013/05/reuse-your-data.html">Software Carpentry website</a> links to some good resources for sharing data.</p>
 <p><strong>Stand on the Shoulders of Giants</strong></p>
 <p>I'll admit to falling prey to the <a href="http://en.wikipedia.org/wiki/Not_invented_here">Not Invented Here</a> syndrome on occasion. As a programmer, you sometimes would rather write it yourself than learn to use someone else's tool or library. But there are benefits to taking the extra time.</p>
 <p>First, you are going to forget at least one corner case. A classic example is deciding to write your own <a href="http://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> parser and forgetting to properly handle commas inside of quotes. What seems like a simple problem can quickly consume hours or days of your time. Second, your software can get better without any additional effort. Bugfixes, performance improvements, and new features can be added to the libraries you depend on. What better way to fight <a href="http://en.wikipedia.org/wiki/Software_rot">code rot</a>? Finally, learning to use libraries makes you more than a one-trick programmer; you begin to see solutions as decomposable into well-known building blocks rather than as a monolithic entity.</p>

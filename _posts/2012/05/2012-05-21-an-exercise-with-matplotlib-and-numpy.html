@@ -2,14 +2,14 @@
 layout: blog
 date: 2012-05-21
 time: "09:00:00"
-author: Mike Hansen
+author: "Mike Hansen"
 title: An Exercise With Matplotlib and Numpy
 category: ["Tutorial"]
 ---
 <p>For this tutorial, we'll be plotting some weather data from a site call <a href="http://www.wunderground.com/">Weather Underground</a>. You can download temperature readings and weather events for your local area in a comma-separated file.</p>
 <p>I've put weather data for Bloomington, IN in a file called <tt>weather.csv</tt>. Each row is one day, and there are columns for min/mean/max temperature, dew point, wind speed, etc. We'll be plotting temperature and weather event data (e.g., rain, snow).</p>
 <p><strong>0. Installing matplotlib</strong></p>
-<p>I covered installing matplotlib in <a href="{{page.root}}/blog/2012/05/an-exercise-with-functions-and-plotting.html">a previous tutorial</a>. The matplotlib site also has <a href="http://matplotlib.sourceforge.net/users/installing.html">installation instructions</a>. I'll assume for the rest of the tutorial that you have matplotlib installed and working. If you can type this code at a Python shell:</p>
+<p>I covered installing matplotlib in <a href="{{site.baseurl}}/blog/2012/05/an-exercise-with-functions-and-plotting.html">a previous tutorial</a>. The matplotlib site also has <a href="http://matplotlib.sourceforge.net/users/installing.html">installation instructions</a>. I'll assume for the rest of the tutorial that you have matplotlib installed and working. If you can type this code at a Python shell:</p>
 <pre>from matplotlib import pyplot</pre>
 <p>and not receive any errors, then you're good to go.</p>
 <p><strong>1. Numpy Crash Course</strong></p>

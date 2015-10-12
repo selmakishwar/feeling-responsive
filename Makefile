@@ -14,6 +14,10 @@ amy :
 dashboard :
 	${PY} bin/get-dashboard.py ./git-token.txt _data/dashboard.yml
 
+## includes   : update include file listing from disk.
+includes :
+	${PY} bin/get-includes.py _data/includes.yml
+
 ## serve      : run a local server.
 serve : 
 	jekyll serve --config _config.yml,_config_dev.yml

@@ -6,6 +6,17 @@ title: Our Team
 <p>
   FIXME: map of instructor locations
 </p>
-<p>
-  FIXME: instructor bios
-</p>
+
+<div>
+  {% for flag in site.data.amy.flags.airports %}
+    <img src="{{site.baseurl}}/files/flags/32/{{flag}}.png" alt="{{flag|replace:'-',' '}}" />
+  {% endfor %}
+</div>
+
+<div class="row">
+  {% for person in site.data.includes.people %}
+    <div class="small-6 columns">{% include {{person}} %}</div>
+    {% cycle '', '</div>' %}
+    {% cycle '', '<div class="row">' %}
+  {% endfor %}
+</div>

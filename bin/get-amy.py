@@ -17,28 +17,21 @@ def main():
     amy_url = sys.argv[1]
     output_file = sys.argv[2]
 
-    # Information from AMY.
+    # Get information from AMY.
     config = {
         'timestamp' : time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'badges' : fetch_info(amy_url, 'export/badges.yaml'),
         'airports' : fetch_info(amy_url, 'export/instructors.yaml'),
-        'workshops' : fetch_info(amy_url, 'events/published.yaml'),
-        'today' : datetime.date.today()
+        'workshops' : fetch_info(amy_url, 'events/published.yaml')
     }
 
-    # Mark workshops as past or future.
-    for w in config['workshops']:
-        w['_is_upcoming'] = w['start'] >= config['today']
-        w['_is_past'] = not w['_is_upcoming']
+    # Add more data.
+    mark_workshops(config['workshops'], datetime.date.today())
 
     # Coalesce flag information.
-    for a in config['airports']:
-        a['country'] = a['country'].lower()
-    for w in config['workshops']:
-        w['country'] = w['country'].lower()
     config['flags'] = {
-        'workshops': sorted({w['country'] for w in config['workshops'] if w['country']}),
-        'airports': sorted({a['country'] for a in config['airports'] if a['country']})
+        'workshops': sort_flags(config['workshops']),
+        'airports': sort_flags(config['airports'])
     }
 
     # Save.
@@ -48,10 +41,27 @@ def main():
 
 def fetch_info(base_url, url):
     '''Download and save data.'''
+
     address = base_url + url
     with urllib.request.urlopen(address) as f:
         content = f.read()
     return yaml.load(content.decode('utf-8'))
+
+
+def mark_workshops(workshops, today):
+    '''Mark workshops as past or future.'''
+
+    for w in workshops:
+        w['_is_upcoming'] = w['start'] >= today
+        w['_is_past'] = not w['_is_upcoming']
+
+
+def sort_flags(data):
+    '''Create sorted list of unique flags, lower-casing as a side effect.'''
+
+    for entry in data:
+        entry['country'] = entry['country'].lower()
+    return sorted({entry['country'] for entry in data if entry['country']})
 
 
 if __name__ == '__main__':

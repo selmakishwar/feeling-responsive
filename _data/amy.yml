@@ -1706,8 +1706,7 @@ flags:
     sg, th, us, za]
   workshops: [au, br, ca, ch, cn, cy, de, dk, es, fi, fr, gb, gh, id, in, it, jo,
     kr, lb, nl, 'no', nz, pl, sa, se, th, us, za]
-timestamp: '2015-10-13T11:52:50Z'
-today: 2015-10-13
+timestamp: '2015-10-13T12:05:32Z'
 workshops:
 - {_is_past: false, _is_upcoming: true, address: 'School of Earth and Environment,
     University of Leeds, Leeds, LS2 9J', contact: J.E.Mound@leeds.ac.uk, country: gb,

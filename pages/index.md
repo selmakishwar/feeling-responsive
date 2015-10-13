@@ -9,18 +9,18 @@ permalink: '/index.html'
 header:
   image_fullwidth: software-carpentry-banner.png
 widget1:
-  title: 'Host a Workshop'
+  title: 'Our Workshops'
   url: '/workshops/host/'
-  text: 'Host a workshop at your university, lab, library, or hospital.'
+  text: 'Host a workshop or find one to attend.'
   image: workshops/2012-12-uta.png
 widget2:
-  title: 'Attend a Workshop'
-  url: '/workshops/attend/'
-  text: 'Find a workshop in your area.'
+  title: 'Our Lessons'
+  url: '/lessons/'
+  text: 'Have a look at what we teach.'
   image: workshops/2012-12-uta.png
 widget3:
   title: 'Get Involved'
   url: '/join/'
-  text: 'Become an instructor, help create lessons, or support us.'
+  text: 'Help teach or join the discussion.'
   image: workshops/2012-12-uta.png
 ---

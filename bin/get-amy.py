@@ -3,6 +3,7 @@
 '''Fetch info about workshops, airports, etc. from AMY.'''
 
 import sys
+import time
 import datetime
 import urllib.request
 import yaml
@@ -18,6 +19,7 @@ def main():
 
     # Information from AMY.
     config = {
+        'timestamp' : time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'badges' : fetch_info(amy_url, 'export/badges.yaml'),
         'airports' : fetch_info(amy_url, 'export/instructors.yaml'),
         'workshops' : fetch_info(amy_url, 'events/published.yaml'),

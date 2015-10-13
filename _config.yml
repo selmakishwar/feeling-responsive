@@ -26,7 +26,7 @@ url: 'http://gvwilson.github.io/feeling-responsive'
 baseurl: ''
 
 # This URL is the base for referenced files.
-filesurl: '/files'
+filesurl: 'http://gvwilson.github.io/feeling-responsive/files'
 
 # Software Carpentry-specific configuration values.
 # FIXME: eliminate some of these (duplicate social media information)

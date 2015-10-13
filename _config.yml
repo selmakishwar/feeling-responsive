@@ -57,7 +57,7 @@ flag_size       : 16
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://software-carpentry.org/files/'
+urlimg: 'http://gvwilson.github.io/feeling-responsive/files/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"

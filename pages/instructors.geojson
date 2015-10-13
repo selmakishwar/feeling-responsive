@@ -16,7 +16,6 @@ permalink: /instructors.geojson
         "marker-color": "#2b3990",
         "details": "{% for i in airport.instructors %}{{i.name|escape}}{% unless forloop.last %}<br/>{% endunless%}{% endfor %}"
       }
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
   ]
 }

@@ -5,20 +5,17 @@ permalink: /workshops_past.geojson
 {
   "type": "FeatureCollection",
   "features": [
-  {% for workshop in site.data.amy.workshops %}
-    {% if workshop._is_past %}
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates":[{{workshop.longitude}},{{workshop.latitude}}]
-        },
-        "properties": {
-          "marker-color": "#2b3990",
-          "details": "<a href='{{workshop.url}}'>{{workshop.venue}}: {{workshop.humandate}}</a>"
-        }
-      }{% unless forloop.last %},{% endunless %}
-    {% endif %}
-  {% endfor %}
+  {% for workshop in site.data.amy.workshops_past %}
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[{{workshop.longitude}},{{workshop.latitude}}]
+      },
+      "properties": {
+        "marker-color": "#2b3990",
+        "details": "<a href='{{workshop.url}}'>{{workshop.venue}}: {{workshop.humandate}}</a>"
+      }
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
   ]
 }

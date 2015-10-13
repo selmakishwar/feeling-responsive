@@ -1,4 +1,4 @@
-num_issues: 254
+num_issues: 255
 num_repos: 14
 records:
 - description: Unix Shell
@@ -394,15 +394,16 @@ records:
     url: 'https://github.com/swcarpentry/amy/issues/529'}
   - {number: 516, title: 'Possible to send out reminder emails to instructors that
       will be teaching?', updated: '2015-10-10', url: 'https://github.com/swcarpentry/amy/issues/516'}
-  - {number: 538, title: Instructor profile request will overwrite instructor badge,
-    updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/538'}
-  - {number: 537, title: Add field "Admin assigned", updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/537'}
   - {number: 536, title: 'Add "created by", "last modified by"', updated: '2015-10-12',
     url: 'https://github.com/swcarpentry/amy/pull/536'}
   - {number: 535, title: Move event log to a separate page, updated: '2015-10-12',
     url: 'https://github.com/swcarpentry/amy/pull/535'}
   - {number: 534, title: 'Improve development database (use [auto generated] fixtures
       of some sort)', updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/534'}
+  - {number: 539, title: Generate a list of SCF members, updated: '2015-10-13', url: 'https://github.com/swcarpentry/amy/issues/539'}
+  - {number: 538, title: Instructor profile request will overwrite instructor badge,
+    updated: '2015-10-13', url: 'https://github.com/swcarpentry/amy/issues/538'}
+  - {number: 537, title: Add field "Admin assigned", updated: '2015-10-13', url: 'https://github.com/swcarpentry/amy/issues/537'}
   url: https://github.com/swcarpentry/amy
 - description: Software Carpentry website
   ident: swcarpentry/site
@@ -475,7 +476,7 @@ records:
   - {number: 864, title: Specified what self-organised workshop is, updated: '2015-09-15',
     url: 'https://github.com/swcarpentry/site/pull/864'}
   - {number: 1098, title: Summer Program from CNPEM, updated: '2015-09-24', url: 'https://github.com/swcarpentry/site/issues/1098'}
-  - {number: 1114, title: Removing direct 'request a DC workshop' link, updated: '2015-10-08',
+  - {number: 1114, title: Removing direct 'request a DC workshop' link, updated: '2015-10-13',
     url: 'https://github.com/swcarpentry/site/pull/1114'}
   url: https://github.com/swcarpentry/site
-timestamp: '2015-10-13T09:27:28Z'
+timestamp: '2015-10-13T20:29:25Z'

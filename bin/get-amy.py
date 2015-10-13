@@ -3,7 +3,6 @@
 '''Fetch info about workshops, airports, etc. from AMY.'''
 
 import sys
-import time
 import datetime
 import urllib.request
 import yaml
@@ -17,20 +16,21 @@ def main():
     amy_url = sys.argv[1]
     output_file = sys.argv[2]
 
-    # Get information from AMY.
+    # Get stock information from AMY.
     config = {
-        'timestamp' : time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'badges' : fetch_info(amy_url, 'export/badges.yaml'),
-        'airports' : fetch_info(amy_url, 'export/instructors.yaml'),
-        'workshops' : fetch_info(amy_url, 'events/published.yaml')
+        'airports' : fetch_info(amy_url, 'export/instructors.yaml')
     }
 
-    # Add more data.
-    mark_workshops(config['workshops'], datetime.date.today())
+    # Adjust.
+    config['workshops_past'], config['workshops_current'] = \
+        split_workshops(fetch_info(amy_url, 'events/published.yaml'),
+                        datetime.date.today())
+    config['workshops'] = [config['workshops_past'], config['workshops_current']]
 
     # Coalesce flag information.
     config['flags'] = {
-        'workshops': sort_flags(config['workshops']),
+        'workshops': sort_flags(config['workshops_past']),
         'airports': sort_flags(config['airports'])
     }
 
@@ -48,12 +48,17 @@ def fetch_info(base_url, url):
     return yaml.load(content.decode('utf-8'))
 
 
-def mark_workshops(workshops, today):
-    '''Mark workshops as past or future.'''
+def split_workshops(workshops, today):
+    '''Split workshops into past and current.'''
 
+    past = []
+    current = []
     for w in workshops:
-        w['_is_upcoming'] = w['start'] >= today
-        w['_is_past'] = not w['_is_upcoming']
+        if w['start'] < today:
+            past.append(w)
+        else:
+            current.append(w)
+    return past, current
 
 
 def sort_flags(data):

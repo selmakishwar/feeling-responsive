@@ -1,4 +1,4 @@
-num_issues: 252
+num_issues: 254
 num_repos: 14
 records:
 - description: Unix Shell
@@ -66,7 +66,7 @@ records:
   - {number: 225, title: Reword "Pipes and Filters", updated: '2015-09-20', url: 'https://github.com/swcarpentry/shell-novice/pull/225'}
   - {number: 236, title: '"Terminal-ogy"', updated: '2015-09-28', url: 'https://github.com/swcarpentry/shell-novice/pull/236'}
   - {number: 239, title: Add shell check to references, updated: '2015-10-04', url: 'https://github.com/swcarpentry/shell-novice/issues/239'}
-  - {number: 240, title: Added information on cd -, updated: '2015-10-11', url: 'https://github.com/swcarpentry/shell-novice/pull/240'}
+  - {number: 240, title: Added information on cd -, updated: '2015-10-12', url: 'https://github.com/swcarpentry/shell-novice/pull/240'}
   url: https://github.com/swcarpentry/shell-novice
 - description: Git
   ident: swcarpentry/git-novice
@@ -237,7 +237,7 @@ records:
     url: 'https://github.com/swcarpentry/python-novice-inflammation/issues/127'}
   - {number: 154, title: Many small changes from runthrough, updated: '2015-10-10',
     url: 'https://github.com/swcarpentry/python-novice-inflammation/pull/154'}
-  - {number: 162, title: Update 01-numpy.md, updated: '2015-10-11', url: 'https://github.com/swcarpentry/python-novice-inflammation/pull/162'}
+  - {number: 162, title: Update 01-numpy.md, updated: '2015-10-12', url: 'https://github.com/swcarpentry/python-novice-inflammation/pull/162'}
   url: https://github.com/swcarpentry/python-novice-inflammation
 - description: R
   ident: swcarpentry/r-novice-inflammation
@@ -267,9 +267,6 @@ records:
   - {number: 120, title: Update 07-knitr-R.md, updated: '2015-08-18', url: 'https://github.com/swcarpentry/r-novice-inflammation/pull/120'}
   - {number: 143, title: added introduction text+ inflammation data downlaod, updated: '2015-08-26',
     url: 'https://github.com/swcarpentry/r-novice-inflammation/pull/143'}
-  - {number: 147, title: Change misleading wording about return statements, updated: '2015-10-06',
-    url: 'https://github.com/swcarpentry/r-novice-inflammation/pull/147'}
-  - {number: 146, title: Misleading wording in 02-func-R, updated: '2015-10-06', url: 'https://github.com/swcarpentry/r-novice-inflammation/issues/146'}
   url: https://github.com/swcarpentry/r-novice-inflammation
 - description: MATLAB
   ident: swcarpentry/matlab-novice-inflammation
@@ -391,14 +388,21 @@ records:
     url: 'https://github.com/swcarpentry/amy/issues/522'}
   - {number: 514, title: Attendance count needs to be more than just one number, updated: '2015-10-09',
     url: 'https://github.com/swcarpentry/amy/issues/514'}
-  - {number: 533, title: Making home page lay out more cleanly, updated: '2015-10-10',
-    url: 'https://github.com/swcarpentry/amy/pull/533'}
   - {number: 532, title: Redisplay person record after approving instructor information,
     updated: '2015-10-10', url: 'https://github.com/swcarpentry/amy/issues/532'}
   - {number: 529, title: Add event organizer info to the API, updated: '2015-10-10',
     url: 'https://github.com/swcarpentry/amy/issues/529'}
   - {number: 516, title: 'Possible to send out reminder emails to instructors that
       will be teaching?', updated: '2015-10-10', url: 'https://github.com/swcarpentry/amy/issues/516'}
+  - {number: 538, title: Instructor profile request will overwrite instructor badge,
+    updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/538'}
+  - {number: 537, title: Add field "Admin assigned", updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/537'}
+  - {number: 536, title: 'Add "created by", "last modified by"', updated: '2015-10-12',
+    url: 'https://github.com/swcarpentry/amy/pull/536'}
+  - {number: 535, title: Move event log to a separate page, updated: '2015-10-12',
+    url: 'https://github.com/swcarpentry/amy/pull/535'}
+  - {number: 534, title: 'Improve development database (use [auto generated] fixtures
+      of some sort)', updated: '2015-10-12', url: 'https://github.com/swcarpentry/amy/issues/534'}
   url: https://github.com/swcarpentry/amy
 - description: Software Carpentry website
   ident: swcarpentry/site
@@ -474,4 +478,4 @@ records:
   - {number: 1114, title: Removing direct 'request a DC workshop' link, updated: '2015-10-08',
     url: 'https://github.com/swcarpentry/site/pull/1114'}
   url: https://github.com/swcarpentry/site
-timestamp: '2015-10-11T20:31:24Z'
+timestamp: '2015-10-13T09:27:28Z'

@@ -1706,7 +1706,7 @@ flags:
     sg, th, us, za]
   workshops: [au, br, ca, ch, cn, cy, de, dk, es, fi, fr, gb, gh, id, in, it, jo,
     kr, lb, nl, 'no', nz, pl, sa, se, th, us, za]
-today: 2015-10-12
+today: 2015-10-13
 workshops:
 - {_is_past: false, _is_upcoming: true, address: 'School of Earth and Environment,
     University of Leeds, Leeds, LS2 9J', contact: J.E.Mound@leeds.ac.uk, country: gb,
@@ -1725,7 +1725,7 @@ workshops:
   longitude: -3.173654, slug: 2015-11-25-edinburgh, start: 2015-11-25, url: 'https://marioa.github.io/2015-11-25-edinburgh/',
   venue: The University of Edinburgh}
 - {_is_past: false, _is_upcoming: true, address: Erik Palménin aukio 1, contact: joona.lehtomaki@helsinki.fi,
-  country: '', end: 2015-11-27, humandate: 'Nov 25-27, 2015', latitude: 60.203843,
+  country: fi, end: 2015-11-27, humandate: 'Nov 25-27, 2015', latitude: 60.203843,
   longitude: 24.9617237, slug: 2015-11-25-helsinki, start: 2015-11-25, url: 'https://cbig.github.io/2015-11-25-helsinki/',
   venue: University of Helsinki}
 - {_is_past: false, _is_upcoming: true, address: 'Level 4 Mathews Building, UNSW',
@@ -1820,11 +1820,11 @@ workshops:
   country: au, end: 2015-10-18, humandate: 'Oct 17-18, 2015', latitude: -37.79291,
   longitude: 144.961174, slug: 2015-10-17-IEEE-Python, start: 2015-10-17, url: 'https://resbaz.github.io/2015-10-17-IEEE-Python/',
   venue: University of Melbourne}
-- {_is_past: false, _is_upcoming: true, address: Torgersen Hall Room 1100, contact: aromanel@vt.edu,
+- {_is_past: true, _is_upcoming: false, address: Torgersen Hall Room 1100, contact: aromanel@vt.edu,
   country: us, end: 2015-10-13, humandate: 'Oct 12-13, 2015', latitude: 37.229622,
   longitude: -80.42033, slug: 2015-10-12-vt, start: 2015-10-12, url: 'https://zhuoaprilfu.github.io/2015-10-12-VirginiaTech/',
   venue: Virginia Tech}
-- {_is_past: false, _is_upcoming: true, address: 52425 Jülich, contact: philip.fowler@bioch.ox.ac.uk,
+- {_is_past: true, _is_upcoming: false, address: 52425 Jülich, contact: philip.fowler@bioch.ox.ac.uk,
   country: ch, end: 2015-10-13, humandate: 'Oct 12-13, 2015', latitude: 50.908945,
   longitude: 6.40542, slug: 2015-10-12-cecam-julich, start: 2015-10-12, url: 'https://philipwfowler.github.io/2015-10-12-cecam-julich/',
   venue: Forschungszentrum Jülich}

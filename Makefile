@@ -26,4 +26,4 @@ serve :
 
 ## clean      : clean up junk files.
 clean :
-	rm -rf _site .sass-cache $$(find . -name '*~' -print)
+	rm -rf _site .sass-cache $$(find . -name '*~' -print) $$(find . -name .DS_Store -print)

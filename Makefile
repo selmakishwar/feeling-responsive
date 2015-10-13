@@ -22,6 +22,10 @@ includes :
 serve : 
 	jekyll serve --config _config.yml,_config_dev.yml
 
+## build      : build files but do not run a server.
+build : 
+	jekyll build
+
 #-------------------------------------------------------------------------------
 
 ## clean      : clean up junk files.

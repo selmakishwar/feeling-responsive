@@ -64,8 +64,6 @@
   dropdown:
   - title: "Join Us"
     url: "/join/"
-  - title: "Apply for Instructor Training"
-    url: "/join/enroll/"
   - title: "Donate"
     url: "/join/donate/"
   - title: "Related Projects"

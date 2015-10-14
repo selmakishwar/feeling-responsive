@@ -972,6 +972,7 @@ airports:
   - {name: Thomas Guignard, user: guignard.thomas}
   - {name: Luke Johnston, user: johnston.luke}
   - {name: Brenna O'Brien, user: obrien.brenna}
+  - {name: Pawel Pomorski, user: pomorski.pawel}
   - {name: Morgan Taschuk, user: taschuk.morgan}
   - {name: Greg Wilson, user: wilson.g}
   - {name: Tom Wright, user: wright.thomas}
@@ -3551,9 +3552,10 @@ workshops:
     end: 2012-10-31, humandate: 'Oct 30-31, 2012', latitude: 51.7571373, longitude: -1.2569052,
     slug: 2012-10-30-oxford, start: 2012-10-30, url: 'https://swcarpentry.github.io/2012-10-30-oxford/',
     venue: Oxford University}
-  - {address: '', contact: '', country: us, end: 2012-10-16, humandate: 'Oct 25-16,
-      2012', latitude: 38.831513, longitude: -77.308746, slug: 2012-10-25-gmu, start: 2012-10-25,
-    url: 'https://swcarpentry.github.io/2012-10-25-gmu/', venue: George Mason University}
+  - {address: George Mason University, contact: '', country: us, end: 2012-10-26,
+    humandate: 'Oct 25-26, 2012', latitude: 38.831513, longitude: -77.308746, slug: 2012-10-25-gmu,
+    start: 2012-10-25, url: 'https://swcarpentry.github.io/2012-10-25-gmu/', venue: George
+      Mason University}
   - {address: '383 Hill Annex, Caltech Campus, Pasadena, CA 91125', contact: '', country: us,
     end: 2012-10-24, humandate: 'Oct 23-24, 2012', latitude: 34.141411, longitude: -118.1249,
     slug: 2012-10-23-caltech, start: 2012-10-23, url: 'https://swcarpentry.github.io/2012-10-23-caltech/',

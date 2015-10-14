@@ -30,4 +30,7 @@ build :
 
 ## clean      : clean up junk files.
 clean :
-	rm -rf _site .sass-cache $$(find . -name '*~' -print) $$(find . -name .DS_Store -print)
+	rm -rf _site
+	rm -rf .sass-cache
+	find . -name '*~' -exec rm {} \;
+	find . -name .DS_Store -exec rm {} \;

@@ -82,6 +82,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - git-token.txt
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"

@@ -82,6 +82,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - Makefile
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"

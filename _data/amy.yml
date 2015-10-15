@@ -3713,6 +3713,9 @@ workshops:
     country: GB, end: 2015-11-17, humandate: 'Nov 16-17, 2015', latitude: 53.466758,
     longitude: -2.233717, slug: 2015-11-16-manchester-codima, start: 2015-11-16, url: 'https://kkwakwa.github.io/2015-11-16-manchester-codima/',
     venue: CoDiMa - University of Manchester}
+  - {address: '', contact: '', country: US, end: 2015-11-12, humandate: 'Nov 11-12,
+      2015', latitude: null, longitude: null, slug: 2015-11-11-nyu-med, start: 2015-11-11,
+    url: 'https://iglpdc.github.io/2015-11-11-nyu-wise/', venue: ''}
   - {address: FIXME, contact: connell.69@nd.edu, country: US, end: 2015-11-06, humandate: 'Nov
       05-06, 2015', latitude: null, longitude: null, slug: 2015-11-05-nd, start: 2015-11-05,
     url: 'https://jiarong.github.io/2015-11-05-ND/', venue: University of Notre Dame}
@@ -3721,6 +3724,10 @@ workshops:
       05-06, 2015', latitude: -26.67774, longitude: 27.09672, slug: 2015-11-05-NWU,
     start: 2015-11-05, url: 'https://anelda.github.io/2015-11-05-NWU/', venue: North-West
       University}
+  - {address: 'Lincoln, NE 68588', contact: eharstad@unl.edu, country: US, end: 2015-11-06,
+    humandate: 'Nov 05-06, 2015', latitude: 40.81789, longitude: -96.700042, slug: 2015-11-05-UNL,
+    start: 2015-11-05, url: 'https://eharstad.github.io/2015-11-05-UNL/', venue: University
+      of Nebraska - Lincoln}
   - {address: '1, Meyerhofst, Heidelberg', contact: coelho@embl.de, country: DE, end: 2015-11-06,
     humandate: 'Nov 04-06, 2015', latitude: 49.3840071, longitude: 8.7107144, slug: 2015-11-04-embl,
     start: 2015-11-04, url: 'https://luispedro.github.io/2015-11-04-embl/', venue: European

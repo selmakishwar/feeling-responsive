@@ -12,7 +12,7 @@ amy :
 
 ## dashboard  : update data about status of projects.
 dashboard :
-	${PY} bin/get-dashboard.py ./git-token.txt _data/dashboard.yml
+	${PY} bin/get-dashboard.py ~/git-token.txt _data/dashboard.yml
 
 ## includes   : update include file listing from disk.
 includes :

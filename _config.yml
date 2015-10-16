@@ -22,11 +22,11 @@ author: gvwilson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://gvwilson.github.io/feeling-responsive'
+url: 'http://dev.software-carpentry.org'
 baseurl: ''
 
 # This URL is the base for referenced files.
-filesurl: 'http://gvwilson.github.io/feeling-responsive/files'
+filesurl: 'http://dev.software-carpentry.org/files'
 
 # Software Carpentry-specific configuration values.
 # FIXME: eliminate some of these (duplicate social media information)
@@ -57,7 +57,7 @@ flag_size       : 16
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://gvwilson.github.io/feeling-responsive/files/'
+urlimg: 'http://dev.software-carpentry.org/files/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -83,6 +83,7 @@ exclude:
     - README.md
     - INSTALL.md
     - git-token.txt
+    - Makefile
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"

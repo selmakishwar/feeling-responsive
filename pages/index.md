@@ -5,7 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-permalink: '/index.html'
+permalink: /index.html
 header:
   image_fullwidth: software-carpentry-banner.png
 widget1:

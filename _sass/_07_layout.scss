@@ -139,10 +139,10 @@ body.video cite { color: #fff; }
 
 @media #{$large-only} {
     #logo img {
-        margin-top: 80px;
+        margin-top: 40px;
     }
     #masthead {
-        height: 310px;
+        height: 3px;
     }
     #masthead-with-pattern {
         padding: 30px 0;
@@ -244,7 +244,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #up-to-top {
-    padding: 160px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 #up-to-top a {
     font-size: 24px;
@@ -267,10 +267,11 @@ body.video cite { color: #fff; }
 }
 
 #footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     background: $footer-bg;
     color: $footer-color;
+    height: 100px;
     }
 
     #footer a {
@@ -288,17 +289,12 @@ body.video cite { color: #fff; }
 /* Subfooter
 ------------------------------------------------------------------- */
 
-#subfooter {
-    background: $subfooter-bg;
-    color: $subfooter-color;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-    #subfooter-left ul.inline-list {
+
+    #footer-left ul.inline-list {
         float: left;
     }
-    #subfooter .credits a {
-        color: $subfooter-link-color;
+    #footer .credits a {
+        color: $footer-link-color;
         border: 0;
         text-transform: uppercase;
         &:hover {
@@ -306,17 +302,17 @@ body.video cite { color: #fff; }
         }
     }
 
-    #subfooter .social-icons li a {
+    #footer .social-icons li a {
         font-size: rem-calc(23);
         display: block;
         width: 36px;
         border-radius: 50%;
-        color: $subfooter-bg;
-        background: $subfooter-color;
+        color: $footer-bg;
+        background: $footer-color;
         text-align: center;
     }
-    #subfooter .social-icons li a:hover {
-        background: $subfooter-bg;
+    #footer .social-icons li a:hover {
+        background: $footer-bg;
         color: #fff;
     }
 

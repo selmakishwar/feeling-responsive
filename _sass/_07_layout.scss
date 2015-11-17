@@ -267,7 +267,7 @@ body.video cite { color: #fff; }
 }
 
 #footer {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
     background: $footer-bg;
     color: $footer-color;
@@ -292,6 +292,11 @@ body.video cite { color: #fff; }
 
     #footer-left ul.inline-list {
         float: left;
+        
+    }
+    #footer-right ul.inline-list{
+        position: relative;
+        top: -35px;
     }
     #footer .credits a {
         color: $footer-link-color;
@@ -310,6 +315,7 @@ body.video cite { color: #fff; }
         color: $footer-bg;
         background: $footer-color;
         text-align: center;
+       
     }
     #footer .social-icons li a:hover {
         background: $footer-bg;

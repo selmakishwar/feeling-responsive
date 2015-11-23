@@ -264,14 +264,15 @@ body.video cite { color: #fff; }
 #footer-content li {
     font-size: rem-calc(13);
     font-weight: 300;
+    padding-bottom: 10px;	
 }
 
 #footer {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 0px;
     background: $footer-bg;
     color: $footer-color;
-    height: 100px;
+   
     }
 
     #footer a {
@@ -289,14 +290,19 @@ body.video cite { color: #fff; }
 /* Subfooter
 ------------------------------------------------------------------- */
 
+    #footer-left p{
+	position: absolute;
+	bottom: 0px;
 
+}	
     #footer-left ul.inline-list {
         float: left;
-        
+                      
     }
     #footer-right ul.inline-list{
-        position: relative;
-        top: -35px;
+        position: absolute;
+        bottom: 0px;
+    
     }
     #footer .credits a {
         color: $footer-link-color;
@@ -339,7 +345,7 @@ body.video cite { color: #fff; }
 
 .b15 { margin-bottom: 15px !important; }
 .b20 { margin-bottom: 20px !important; }
-.b30 { margin-bottom: 30px !important; }
+.b30 { margin-bottom: 0px !important; }
 .b60 { margin-bottom: 60px !important; }
 
 .l15 { margin-left: 15px !important; }
